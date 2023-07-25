@@ -1,0 +1,5 @@
+Priceless Schema
+1.	What are ER Diagrams? What is their significance in DBMS?
+ER Diagrams: Entity-Relationship Diagrams (ER Diagrams or ERDs) are graphical representations used to model the logical structure of a database. They depict the relationships between entities and their attributes.
+
+Significance in DBMS: ER diagrams are essential in database design as they provide a visual representation of the database schema. They aid in communication, normalization, identifying entities and attributes, database maintenance, and ensuring data integrity.
