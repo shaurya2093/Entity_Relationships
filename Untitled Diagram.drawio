@@ -1,9 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T08:32:00.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="11_9bROJPC1yhC4yoAMW" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T08:46:02.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="M8r2AtXcV220NP5faJxb" version="24.2.5" type="github">
   <diagram name="Page-1" id="Qch5MNTK3_hXIui_2PCd">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-1" value="&amp;nbsp;Input Fraud Detection Dataset" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-2" value="Preprocessing for Fraud Detection (Data Cleaning, Feature Engineering, etc.)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="170" as="sourcePoint" />
+            <mxPoint x="510" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-6" value="&amp;nbsp;Class Imbalance Check&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Fraudulent Claims)&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-7" value="Class Imbalance Check&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;(Genuine Claims)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="120" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-9" value="&amp;nbsp; Apply SMOTE Algorithm&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="50" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-11" value="&lt;div&gt;Original Genuine Claims&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="120" as="sourcePoint" />
+            <mxPoint x="940" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="350" as="sourcePoint" />
+            <mxPoint x="930" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-14" value="&lt;div&gt;&amp;nbsp;Generate Synthetic Samples&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="940" y="60" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-15" value="&lt;div&gt;Balanced Dataset&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="940" y="270" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ekis8Mb5bSGmvvZcFA3X-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="344.5" as="sourcePoint" />
+            <mxPoint x="1140" y="344.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-18" value="&lt;div&gt;Train Fraud Detection Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="273.75" width="142.5" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-19" value="Balanced Dataset for Fraud Detection" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="60" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ekis8Mb5bSGmvvZcFA3X-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="130" as="sourcePoint" />
+            <mxPoint x="1130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="130" as="sourcePoint" />
+            <mxPoint x="1480" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ekis8Mb5bSGmvvZcFA3X-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1265" y="350" as="sourcePoint" />
+            <mxPoint x="1480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-23" value="Evaluate Model Performance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="180" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="250" as="sourcePoint" />
+            <mxPoint x="1780" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-26" value="Improve Accuracy" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="175" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ekis8Mb5bSGmvvZcFA3X-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="235" as="sourcePoint" />
+            <mxPoint x="240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1940" y="260" as="sourcePoint" />
+            <mxPoint x="2020" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekis8Mb5bSGmvvZcFA3X-29" value="Output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
